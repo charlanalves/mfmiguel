@@ -219,7 +219,7 @@ div#rev_slider_1_1_wrapper {
 }
 
 .azp_col.azp_col-sm-7.azp_col-md-7 {
-    line-height: 30px;
+    line-height: 28px;
 	text-align: justify;
 }
 
@@ -348,6 +348,10 @@ img.diamond{
 
 .parallax_sec1_left .azp_iconbox a p, .parallax_sec1_right .azp_iconbox a {
     text-align: justify;
+}
+.imagem_empresa img {
+    height: 336px;
+    width: 336px;
 }
 @media only screen and (max-width: 479px) {
 	a.knowmore_but:hover {
