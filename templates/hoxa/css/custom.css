@@ -394,6 +394,9 @@ ul.recent_posts_list {
 .about_author {
     display: none;
 }
+li.itemGooglePlusOneButton {
+    display: none;
+}
 .comment_form {
     display: none;
 }
