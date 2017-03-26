@@ -350,8 +350,7 @@ img.diamond{
     text-align: justify;
 }
 .imagem_empresa img {
-    height: 336px;
-    width: 336px;
+    height: 336px;    
 }
 @media only screen and (max-width: 479px) {
 	a.knowmore_but:hover {
