@@ -25,20 +25,9 @@ $postLink = $extraFields[1]->value;
     <div class="blog_postcontent">
     	<!-- Post type -->
     	<?php if($postType == '1') : ?>
-    		<div class="image_frame"><a href="<?php echo $this->item->link; ?>"><img src="<?php echo $this->item->imageXLarge;//JURI::root(true).$postLink;?>" alt="<?php echo $this->item->title;?>" /></a></div>
-		<?php elseif($postType == '4') : ?>
-			<div class="image_frame">
-				<ul class="slides">
-		<?php
-	    	foreach ($extraFields as $key => $field) :
-	    	if($key > 0 && trim($field->value) !='') :
-	    ?>
-				<li>
-					<img alt="<?php echo $this->item->title. '-image-'.($key+1);?>" src="<?php echo JURI::root(true).$field->value;?>" >
-				</li>
-		<?php endif; endforeach; ?>
-				</ul>
-				  <ul class="post_meta_links">
+    		<div class="image_frame"><a href="<?php echo $this->item->link; ?>"><img src="<?php echo $this->item->imageXLarge;//JURI::root(true).$postLink;?>" alt="<?php echo $this->item->title;?>" /></a>
+			
+			  <ul class="post_meta_links">
         <!-- post author -->
         	<li><a href="#" class="date"><?php echo JHTML::_('date', $this->item->created, 'd F Y'); ?></a></li>
             <?php if($this->item->params->get('catItemAuthor')): ?>
@@ -81,6 +70,20 @@ $postLink = $extraFields[1]->value;
 
             
         </ul>
+			</div>
+		<?php elseif($postType == '4') : ?>
+			<div class="image_frame">
+				<ul class="slides">
+		<?php
+	    	foreach ($extraFields as $key => $field) :
+	    	if($key > 0 && trim($field->value) !='') :
+	    ?>
+				<li>
+					<img alt="<?php echo $this->item->title. '-image-'.($key+1);?>" src="<?php echo JURI::root(true).$field->value;?>" >
+				</li>
+		<?php endif; endforeach; ?>
+				</ul>
+				
 			</div>
 		<?php elseif($postType == '2') : 
 			$id = array();
