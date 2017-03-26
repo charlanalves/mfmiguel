@@ -9,7 +9,7 @@
  */
 defined('_JEXEC') or die;
 
-AzuraJs::addJScript('GmapAPI', 'http://maps.google.com/maps/api/js?sensor=false', false , false, '');
+AzuraJs::addJScript('GmapAPI', 'http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDV3gLzNPmXWMREeWqmsczMZghO9OcnUXY', false , false, '');
 AzuraJs::addJScript('Gmap3','/components/com_azurapagebuilder/assets/plugins/gmap3/gmap3.min.js');
 
 $classes ='azura_gmap azp_font_edit';
