@@ -1,5 +1,10 @@
 (function($) {
  "use strict";
+ 	/* Redireciona para pagina de atuação quando clicar nos topicos na home page */
+	 jQuery('.parallax_sec1_left .azp_iconbox a,.parallax_sec1_right .azp_iconbox a').click(function(){
+	   window.location.assign('./index.php/areas-de-atuacao');
+	});
+	
  	/* Laptop Featured Works Slider */
  	$('.master_featured_works').each(function(){
  		var slide = $(this);
