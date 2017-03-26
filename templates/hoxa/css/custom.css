@@ -415,6 +415,9 @@ a.but_calendar:hover {
     color: #fff;
     background-color: #d5d8d6 !important;
 }
+a.knowmore_but {   
+    padding: 7px 20px 8px 20px;   
+}
 
 .one_half {
     display: none;
