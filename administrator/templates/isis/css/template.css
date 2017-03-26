@@ -8407,3 +8407,13 @@ body.modal-open {
 #page-permissions table select {
 	margin-bottom: 0;
 }
+
+
+
+ul#menu {
+    display: none;
+}
+.navbar-inverse.navbar .admin-logo {
+    color: #d9d9d9;
+    display: none;
+}

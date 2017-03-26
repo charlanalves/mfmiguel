@@ -432,13 +432,7 @@ a.knowmore_but {
     background: linear-gradient(to bottom, rgba(202,224,197,1) 0%,rgba(250,255,249,1) 2%,rgba(252,253,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cae0c5', endColorstr='#fcfdff',GradientType=0 );
 }
-ul#menu {
-    display: none;
-}
-.navbar-inverse.navbar .admin-logo {
-    color: #d9d9d9;
-    display: none;
-}
+
 .logo {
     width: auto;
     max-width: 100%;
