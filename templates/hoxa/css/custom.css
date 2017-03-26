@@ -385,6 +385,26 @@ a {
 .blog_post h3 a:hover {
     color: #71878a;
 }
+li.post_by {
+    display: none;
+}
+ul.recent_posts_list {
+    display: none;
+}
+.about_author {
+    display: none;
+}
+.comment_form {
+    display: none;
+}
+
+.one_half {
+    display: none;
+}
+
+.content_fullwidth.lessmar > h4 {
+    display: none;
+}
 @media only screen and (max-width: 5000px) {
 	ul.post_meta_links.area_item {
     margin: 10px 0px 0px 0px;
