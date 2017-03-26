@@ -352,6 +352,9 @@ img.diamond{
 .imagem_empresa img {
     height: 336px;    
 }
+.feature_section8 {  
+    padding: 22px 0px 50px 0px !important;
+}
 @media only screen and (max-width: 479px) {
 	a.knowmore_but:hover {
     color: #fff;
