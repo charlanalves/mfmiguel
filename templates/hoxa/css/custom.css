@@ -345,6 +345,10 @@ img.diamond{
 .azp_container-ele.areas_atuacao_box {
     text-align: left;
 }
+
+.parallax_sec1_left .azp_iconbox a p, .parallax_sec1_right .azp_iconbox a {
+    text-align: justify;
+}
 @media only screen and (max-width: 479px) {
 	a.knowmore_but:hover {
     color: #fff;
