@@ -365,6 +365,9 @@ img.diamond{
     color: #fff;
     background-color: #d5d8d6 !important;
 }
+ul.nav>li>a:hover {
+    color: #ffffff;
+}
 @media only screen and (max-width: 479px) {
 	a.knowmore_but:hover {
     color: #fff;
