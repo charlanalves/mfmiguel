@@ -397,7 +397,13 @@ ul.recent_posts_list {
 li.itemGooglePlusOneButton {
     display: none;
 }
+li.itemFacebookButton {
+    width: 54px;
+}
 .comment_form {
+    display: none;
+}
+span#u_0_3 {
     display: none;
 }
 
