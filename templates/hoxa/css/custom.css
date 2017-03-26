@@ -397,7 +397,9 @@ ul.recent_posts_list {
 li.itemGooglePlusOneButton {
     display: none;
 }
-
+li.post_comments {
+    display: none;
+}
 .comment_form {
     display: none;
 }
