@@ -355,6 +355,16 @@ img.diamond{
 .feature_section8 {  
     padding: 22px 0px 50px 0px !important;
 }
+.readmore_but3 {
+    background-color: #cedcd3 !important;
+    color: #2f383d;
+    font-weight: bold;
+    border-bottom: 1px solid #2f383d;
+}
+.readmore_but3:hover {
+    color: #fff;
+    background-color: #d5d8d6 !important;
+}
 @media only screen and (max-width: 479px) {
 	a.knowmore_but:hover {
     color: #fff;
