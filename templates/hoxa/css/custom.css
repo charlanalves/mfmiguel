@@ -376,7 +376,58 @@ ul.nav>li>a:hover {
 .blog_post h3 {
     width: 50%;
 }
+.blog_post h3 a {
+    color: #486f82;
+}
+a {
+    color: #486f82; 
+}
+.blog_post h3 a:hover {
+    color: #71878a;
+}
+@media only screen and (max-width: 5000px) {
+	ul.post_meta_links.area_item {
+    margin: 10px 0px 0px 0px;
+}
+.blog_postcontent .image_frame {
+    float: left;
+    width: 47%;
+    margin-bottom: 27px;
+}
+.blog_postcontent .image_frame img {    
+    width: 93.7%;    
+}
+ul.post_meta_links {    
+    margin: 20px 0px 0px 0px;    
+}
+.divider_dashed9 {        
+    margin: 7px 0px 48px 0px;    
+}
+}
 @media only screen and (max-width: 479px) {
+.post_meta_links li:first-child {
+    width: 100%;
+}
+.pagination a.navlinks {
+    margin-left: 0px;
+    margin-right: 2px;
+}
+ul.post_meta_links {
+    float: left;
+    margin: 19px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.blog_post h3 a {
+    font-size: 23px;
+}
+.blog_post h3 {
+    width: 100%;
+}
+.blog_postcontent .image_frame {
+    float: left;
+    width: 100%;
+    margin-bottom: 27px;
+}
 	a.knowmore_but:hover {
     color: #fff;
     background-color: #617886;
