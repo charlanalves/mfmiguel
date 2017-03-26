@@ -81,6 +81,18 @@ $postLink = $extraFields[1]->value;
 
         <!-- Post title -->
 		<h3><a href="<?php echo $this->item->link; ?>"><?php echo $this->item->title;?></a></h3>
+		  <?php if($this->item->params->get('catItemIntroText')): ?>
+			<!-- Item introtext -->
+		  	<?php echo $this->item->introtext; ?>
+		
+		<?php endif; ?>
+
+		<?php if ($this->item->params->get('catItemReadMore')): ?>
+		<!-- Item "read more..." link -->
+
+			<a href="<?php echo $this->item->link; ?>"><?php echo JText::_('TPL_HOXA_READ_MORE_TEXT'); ?></a>
+
+		<?php endif; ?>
 
         <ul class="post_meta_links">
         <!-- post author -->
@@ -128,18 +140,7 @@ $postLink = $extraFields[1]->value;
         <div class="clearfix"></div>
         <div class="margin_top1"></div>
 
-        <?php if($this->item->params->get('catItemIntroText')): ?>
-			<!-- Item introtext -->
-		  	<?php echo $this->item->introtext; ?>
-		
-		<?php endif; ?>
-
-		<?php if ($this->item->params->get('catItemReadMore')): ?>
-		<!-- Item "read more..." link -->
-
-			<a href="<?php echo $this->item->link; ?>"><?php echo JText::_('TPL_HOXA_READ_MORE_TEXT'); ?></a>
-
-		<?php endif; ?>
+      
 
     </div>
 </div><!-- /# end post -->
