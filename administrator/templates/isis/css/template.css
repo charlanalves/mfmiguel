@@ -8429,10 +8429,26 @@ ul#menu {
 .span9 .row-fluid:nth-child(4) {
     display: none;
 }
-
+.span9 .row-fluid:nth-child(5) {
+    display: none;
+}
 .span9 .row-fluid:nth-child(6) {
     display: none;
 }
 .cpanel-links {
+    display: none;
+}
+
+dt.tabs.latestItemsTab.closed {
+    display: none;
+}
+dt.tabs.mostCommentedItemsTab.closed {
+    display: none;
+}
+
+dt.tabs.latestCommentsTab.closed {
+    display: none;
+}
+dt.tabs.statsTab.closed {
     display: none;
 }
