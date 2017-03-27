@@ -433,13 +433,7 @@ a.knowmore_but {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cae0c5', endColorstr='#fcfdff',GradientType=0 );
 }
 
-.logo {
-    width: auto;
-    max-width: 100%;
-    max-height: 36px;
-    height: auto;
-    display: none;
-}
+
 .one_half {
     display: none;
 }
