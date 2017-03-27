@@ -28,7 +28,7 @@ $postLink = $extraFields[1]->value;
 <div class="blog_post"> 
     <div class="blog_postcontent">
       <!-- Post type -->
-      <?php if($postType == '1') : ?>
+      <?php echo $postType; exit('asdasd'); if($postType == '1') : ?>
         <div class="image_frame"><a href="<?php echo $this->item->link; ?>"><img src="<?php echo $this->item->imageXLarge;//JURI::root(true).$postLink;?>" alt="<?php echo $this->item->title;?>" /></a>
 		
 		 <ul class="post_meta_links area_item">
