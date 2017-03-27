@@ -244,7 +244,7 @@ if ($this->params->get('linkColor'))
 <?php if ($displayHeader) : ?>
 	<header class="header<?php echo $header_is_light ? ' header-inverse' : ''; ?>">
 		<div class="container-logo">
-			<img src="<?php echo $logo; ?>" class="logo" alt="<?php echo $sitename;?>" />
+			<a href="./"><img src="<?php echo $logo; ?>" class="logo" alt="<?php echo $sitename;?>" /></a>
 		</div>
 		<div class="container-title">
 			<jdoc:include type="modules" name="title" />
