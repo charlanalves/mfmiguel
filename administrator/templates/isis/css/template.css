@@ -8452,3 +8452,6 @@ dt.tabs.latestCommentsTab.closed {
 dt.tabs.statsTab.closed {
     display: none;
 }
+a.login-joomla.hasTooltip {
+    display: none;
+}
