@@ -15,7 +15,7 @@ $user = JFactory::getUser();
 ?>
 <div class="row-fluid">
 	<?php $iconmodules = JModuleHelper::getModules('icon');
-	if ($iconmodules) : ?>
+	if (!$iconmodules) : ?>
 		<div class="span3">
 			<div class="cpanel-links">
 				<?php
