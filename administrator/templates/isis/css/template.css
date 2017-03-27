@@ -8455,3 +8455,9 @@ dt.tabs.statsTab.closed {
 a.login-joomla.hasTooltip {
     display: none;
 }
+.copyright {
+    display: none;
+}
+div#status {
+    display: none;
+}
