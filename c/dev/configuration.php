@@ -1,7 +1,7 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
+	public $offline_message = 'Esse site esta em fase de publicação em breve estará disponível para acessos.';
 	public $sitename = 'MFMiguel Advogados Associados.';
 	public $editor = 'jce';
 	public $list_limit = '20';
