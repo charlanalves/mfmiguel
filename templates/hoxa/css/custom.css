@@ -434,6 +434,10 @@ a.knowmore_but {
 p {
     text-align: justify;
 }
+.team_member h5 {
+    color: #3b5260;
+    font-weight: bold;
+}
 .acc-trigger a {
     color: #ffffff;
 }
