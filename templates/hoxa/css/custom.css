@@ -427,7 +427,10 @@ a.knowmore_but {
     border: 1px solid #e3e3e3;
     border-top: 0px solid #e3e3e3;    
 }
-
+a.knowmore_but {
+    background-color: #34424b;
+    color: #ffffff;
+}
 .acc-trigger a {
     color: #ffffff;
 }
