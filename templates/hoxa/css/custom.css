@@ -438,6 +438,9 @@ p {
     color: #3b5260;
     font-weight: bold;
 }
+.team_member:hover h5 {
+    color: #5e7a8c;
+}
 .acc-trigger a {
     color: #ffffff;
 }
