@@ -482,6 +482,9 @@ ul.post_meta_links {
 }
 }
 @media only screen and (max-width: 479px) {
+.imagem_empresa img {
+	display: none;
+}
 .post_meta_links li:first-child {
     width: 100%;
 }
