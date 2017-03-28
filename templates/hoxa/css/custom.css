@@ -431,6 +431,9 @@ a.knowmore_but {
     background-color: #34424b;
     color: #ffffff;
 }
+p {
+    text-align: justify;
+}
 .acc-trigger a {
     color: #ffffff;
 }
