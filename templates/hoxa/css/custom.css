@@ -304,14 +304,7 @@ img.diamond {
     top: 5px;
 }
 
-img.diamond{
--webkit-animation: spin 4s infinite cubic-bezier(0, 1.01, 1, 1);
 
-@-webkit-keyframes spin {
-    0%   {-webkit-transform: rotate(0deg)}
-    100% {-webkit-transform: rotate(360deg)}
-}
-}
 .logotipoweb{
 	display:block;
 	margin-bottom: 9px;
