@@ -425,15 +425,12 @@ a.knowmore_but {
     margin-bottom: 4px;
     background-color: #fff;
     border: 1px solid #e3e3e3;
-    border-top: 0px solid #e3e3e3;
-    background: rgb(202,224,197);
-    background: -moz-linear-gradient(top, rgba(202,224,197,1) 0%, rgba(250,255,249,1) 2%, rgba(252,253,255,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(202,224,197,1) 0%,rgba(250,255,249,1) 2%,rgba(252,253,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(202,224,197,1) 0%,rgba(250,255,249,1) 2%,rgba(252,253,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cae0c5', endColorstr='#fcfdff',GradientType=0 );
+    border-top: 0px solid #e3e3e3;    
 }
 
-
+.acc-trigger a {
+    color: #ffffff;
+}
 .one_half {
     display: none;
 }
@@ -442,6 +439,23 @@ a.knowmore_but {
     display: none;
 }
 
+.acc-trigger.active {
+    cursor: default;
+    background: #2f383d;    
+}
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+}
+
+.acc-trigger a {
+    background-color: #3d5462;
+}
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+    background-color: #3b5562;
+}
 @media only screen and (max-width: 5000px) {
 	ul.post_meta_links.area_item {
     margin: 10px 0px 0px 0px;
