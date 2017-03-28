@@ -241,12 +241,12 @@ azp_container:first-child {
 }
 
 a.knowmore_but {
-    background-color: #d3ecdc;
-    color: #2f383d;
+    background-color: #2f363c;
+    color: #ffffff;
 }
 a.knowmore_but:hover {
     color: #ffffff !important;
-    background-color: #cedcd3 !important;
+    background-color: #4d5a61 !important;
 }
 .punchline_text_box {
     border-left: 5px solid #42586f;
@@ -356,14 +356,14 @@ img.diamond{
     padding: 22px 0px 50px 0px !important;
 }
 .readmore_but3 {
-    background-color: #cedcd3 !important;
-    color: #2f383d;
+    background-color: #303b3f !important;
+    color: #ffffff;
     font-weight: bold;
     border-bottom: 1px solid #2f383d;
 }
 .readmore_but3:hover {
-    color: #fff;
-    background-color: #d5d8d6 !important;
+	color: #fff;
+    background-color: #556065 !important
 }
 ul.nav>li>a:hover {
     color: #ffffff;
@@ -406,14 +406,14 @@ li.post_comments {
 a.but_calendar {
     padding: 10px 22px 10px 22px;
     margin: 0px 0px 0px 0px;
-    background: #cedcd3;
+    background: #334249;
     border-bottom: 1px solid #909090;
-    color: #2f383d;
+    color: #ffffff;
 }
 a.but_calendar:hover {
     background-color: #688494;
     color: #fff;
-    background-color: #d5d8d6 !important;
+    background-color: #556369 !important;
 }
 a.knowmore_but {   
     padding: 7px 20px 8px 20px;   
@@ -441,6 +441,7 @@ a.knowmore_but {
 .content_fullwidth.lessmar > h4 {
     display: none;
 }
+
 @media only screen and (max-width: 5000px) {
 	ul.post_meta_links.area_item {
     margin: 10px 0px 0px 0px;
