@@ -28,8 +28,8 @@ class JConfig {
 	public $offset = 'UTC';
 	public $offset_user = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'contact.cththemes@gmail.com';
-	public $fromname = 'Cththemes';
+	public $mailfrom = 'contato@mfmiguel.com.br';
+	public $fromname = 'MFMiguel';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -49,8 +49,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/var/www/html/log';
-	public $tmp_path = '/var/www/html/tmp';
+	public $log_path = '/var/www/html/mfmiguel/log';
+	public $tmp_path = '/var/www/html/mfmiguel/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
