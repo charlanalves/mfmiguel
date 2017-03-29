@@ -1,6 +1,6 @@
 <?php
 class JConfig {
-	public $offline = '1';
+	public $offline = '0';
 	public $offline_message = 'Esse site esta em fase de publicação em breve estará disponível para acessos.';
 	public $sitename = 'MFMiguel Advogados Associados.';
 	public $editor = 'jce';
