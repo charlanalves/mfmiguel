@@ -483,6 +483,30 @@ ul.post_meta_links {
 .divider_dashed9 {        
     margin: 7px 0px 48px 0px;    
 }
+.siteinfo {
+    float: left;
+    width: 100%;
+    position: relative;
+    left: -88px;
+}
+.siteinfo2 {
+    position: relative;
+    left: -67px;	
+}
+
+
+.siteinfo2 a {
+    color: #999;
+    font-size: 13px;
+}
+
+.siteinfo2 a:hover {
+    color: white;
+    font-size: 13px;
+}
+.siteinfo2 {
+    padding-top: 45px;
+}
 }
 @media only screen and (max-width: 479px) {
 .one_fourth {
