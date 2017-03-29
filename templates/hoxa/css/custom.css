@@ -493,7 +493,9 @@ ul.post_meta_links {
     position: relative;
     left: -67px;	
 }
-
+.siteinfo2 {
+    padding-top: 45px;
+}
 
 .siteinfo2 a {
     color: #999;
