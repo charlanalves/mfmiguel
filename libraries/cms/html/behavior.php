@@ -402,7 +402,7 @@ abstract class JHtmlBehavior
 		$options = JHtml::getJSObject($opt);
 
 		// Attach modal behavior to document
-		$document
+		/*$document
 			->addScriptDeclaration(
 			"
 		jQuery(function($) {
@@ -444,7 +444,7 @@ abstract class JHtmlBehavior
 		};
 		"
 		);
-
+*/
 		// Set static array
 		static::$loaded[__METHOD__][$sig] = true;
 
