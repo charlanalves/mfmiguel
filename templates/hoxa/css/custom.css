@@ -485,6 +485,12 @@ ul.post_meta_links {
 }
 }
 @media only screen and (max-width: 479px) {
+.siteinfo {
+	display:none;
+}
+.siteinfo2 {
+	display:none;
+}
 .azp_col.azp_col-sm-6.azp_col-md-6.parallax_sec1_right .azp_iconbox {
     margin-top: 71px;
 }
