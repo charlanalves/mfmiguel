@@ -462,6 +462,9 @@ p {
     border-bottom: 1px solid #fff;
     background-color: #3b5562;
 }
+.one_fourth {
+    width: 20%;
+}
 @media only screen and (max-width: 5000px) {
 	ul.post_meta_links.area_item {
     margin: 10px 0px 0px 0px;
