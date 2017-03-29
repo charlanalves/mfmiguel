@@ -485,6 +485,9 @@ ul.post_meta_links {
 }
 }
 @media only screen and (max-width: 479px) {
+.one_fourth {
+    width: 90%;
+}
 .siteinfo {
 	display:none;
 }
