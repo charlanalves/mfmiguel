@@ -473,7 +473,10 @@ background-image: url(../../../images/aa.png);
     position: relative;
 }
 @media only screen and (max-width: 5000px) {
-	ul.post_meta_links.area_item {
+h2.noticiash2 {
+    margin-bottom: 44px;
+}
+ul.post_meta_links.area_item {
     margin: 10px 0px 0px 0px;
 }
 .blog_postcontent .image_frame {
