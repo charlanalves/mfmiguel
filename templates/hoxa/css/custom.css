@@ -465,6 +465,13 @@ p {
 .one_fourth {
     width: 20%;
 }
+.connectasocial{
+background-image: url(./images/aa.png);
+    width: 13px;
+    height: 12px;
+    top: 2px;
+    position: relative;
+}
 @media only screen and (max-width: 5000px) {
 	ul.post_meta_links.area_item {
     margin: 10px 0px 0px 0px;
